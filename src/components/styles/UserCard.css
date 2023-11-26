@@ -1,0 +1,34 @@
+.form_card {
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 1rem;
+    width: 250px;
+    height: 100px;
+    align-items: center;
+}
+.form_name {
+    text-align: center;
+}
+.form_items {
+    display: flex;
+    flex-direction: column;
+}
+.form_item {
+    color: #0007;
+}
+.form_buttom {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.form_btn_delete {
+    background-color: rgb(235, 50, 50);
+    color: white;
+    border-radius: 8px;
+    height: 1.5rem;
+}
+.form_btn_edit {
+    background-color: rgb(163, 160, 160);
+    color: white;
+    border-radius: 8px;
+    height: 1.5rem;
+}
