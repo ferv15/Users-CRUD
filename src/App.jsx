@@ -11,7 +11,7 @@ function App() {
 
   const [isDisable, setIsDisable] = useState(true)
 
-  const url = 'http://users-crud.academlo.tech'
+  const url = 'https://users-crud.academlo.tech'
   
   const [ users, getUsers, createUser, deleteUser, updateUser ] = useCrud(url)
 
